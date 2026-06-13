@@ -46,6 +46,21 @@ public class LoginController {
         return Map.of("status", "UP", "message", "PathFinder API is running");
     }
 
+    @GetMapping("/debug/users")
+    public ResponseEntity<?> debugUsers() {
+        return ResponseEntity.ok(usersRepo.findAll());
+    }
+
+    // 檢查這個帳號的密碼 hash 是什麼 (方便確認是不是明文)
+    @GetMapping("/debug/user/{identifier}")
+    public ResponseEntity<?> debugUser(@PathVariable String identifier) {
+        if (identifier.contains("@")) {
+            return ResponseEntity.ok(usersRepo.findByEmailIgnoreCase(identifier));
+        } else {
+            return ResponseEntity.ok(usersRepo.findByMobile(identifier));
+        }
+    }
+
     @PostMapping
     public ResponseEntity<?> login(@RequestBody LoginRequest request) {
         try {
