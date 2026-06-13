@@ -47,6 +47,7 @@ public class SecurityConfig {
                 .cors(withDefaults())
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
+                        .requestMatchers("/", "/error").permitAll()
                         .requestMatchers(HttpMethod.POST, "/register", "/login", "/logout", "/forget_password",
                                 "/reset_password")
                         .permitAll()
