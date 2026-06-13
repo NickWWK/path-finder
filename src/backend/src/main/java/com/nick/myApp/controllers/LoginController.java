@@ -20,7 +20,7 @@ import com.nick.myApp.repos.UsersRepo;
 
 import lombok.RequiredArgsConstructor;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://pathfinderio.netlify.app/signin")
 @RestController
 @RequestMapping("/login")
 @RequiredArgsConstructor

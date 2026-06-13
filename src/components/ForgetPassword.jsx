@@ -37,7 +37,7 @@ const ForgetPassword = () => {
 
     if (Object.keys(validationErrors).length === 0) {
       try {
-        const res = await axios.post("https://erb-group.onrender.com/forget_password", {
+        const res = await axios.post("https://path-finder-w0sr.onrender.com/forget_password", {
           method, email, username
         });
         alert("✅ Password reset link has been sent, please check your email");

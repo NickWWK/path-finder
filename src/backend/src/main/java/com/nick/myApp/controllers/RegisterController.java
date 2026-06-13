@@ -17,7 +17,7 @@ import com.nick.myApp.repos.UsersRepo;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://pathfinderio.netlify.app/signup")
 @RestController
 @RequestMapping("/register")
 @RequiredArgsConstructor

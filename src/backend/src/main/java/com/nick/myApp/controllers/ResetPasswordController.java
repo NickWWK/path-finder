@@ -17,7 +17,7 @@ import com.nick.myApp.config.SendEmail;
 import com.nick.myApp.models.Users;
 import com.nick.myApp.repos.UsersRepo;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://pathfinderio.netlify.app/resetpassword")
 @RestController
 @RequestMapping("/reset_password")
 public class ResetPasswordController {

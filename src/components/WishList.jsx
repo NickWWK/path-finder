@@ -10,7 +10,7 @@ const WishList = ({setHeartCount}) => {
   const [compareData, setCompareData] = useState([]); 
   const [isCompareShown, setIsCompareShown] = useState(false);
 
-  const BASE_URL = "https://erb-group.onrender.com";
+  const BASE_URL = "https://path-finder-w0sr.onrender.com";
 
   const getHeaders = () => {
     const token = localStorage.getItem("token");

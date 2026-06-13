@@ -27,7 +27,7 @@ const Course = () => {
 
         try {
         await axios.post(
-            `https://erb-group.onrender.com/cart/add/${courseId}?quantity=1`,
+            `https://path-finder-w0sr.onrender.com/cart/add/${courseId}?quantity=1`,
             {},
             { headers: { Authorization: `Bearer ${token}` } }
         );

@@ -30,7 +30,7 @@ console.log("identifier : " + identifier);
         console.log("Fetching orders with identifier:", identifier);
 
         const res = await axios.get(
-          `https://erb-group.onrender.com/orders/history/${encodeURIComponent(identifier)}`,
+          `https://path-finder-w0sr.onrender.com/orders/history/${encodeURIComponent(identifier)}`,
           { headers: getHeaders() }
         );
 

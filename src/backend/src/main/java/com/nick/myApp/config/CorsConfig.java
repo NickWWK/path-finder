@@ -21,10 +21,9 @@ public class CorsConfig {
         config.setAllowedOriginPatterns(List.of(
                 "http://localhost:5173",
                 "http://localhost:5174",
-                "https://*.ngrok-free.dev",
-                "https://erb-group-project-ngrok.netlify.app",
-                "https://erb-backend-kuh8.onrender.com",
-                "https://erb-group.onrender.com"));
+                "https://pathfinderio.netlify.app",
+                "https://path-finder-w0sr.onrender.com"
+                ));
 
         // 允許所有 header（包含 Authorization）
         config.setAllowedHeaders(List.of("*"));

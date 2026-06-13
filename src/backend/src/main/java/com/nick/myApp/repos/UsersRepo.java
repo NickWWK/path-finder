@@ -2,7 +2,6 @@ package com.nick.myApp.repos;
 
 import java.util.Optional;
 
-import org.springframework.boot.webmvc.autoconfigure.WebMvcProperties.Apiversion.Use;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.nick.myApp.models.Users;

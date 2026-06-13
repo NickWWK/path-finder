@@ -28,7 +28,7 @@ const CourseDetail = ({setCartCount,setHeartCount}) => {
         return;
         }
 
-        axios.post("https://erb-group.onrender.com/cart/add",
+        axios.post("https://path-finder-w0sr.onrender.com/cart/add",
         { courseId: currentCourse.id, quantity: 1 },
         { headers: { Authorization: `Bearer ${token}` } }
         )
