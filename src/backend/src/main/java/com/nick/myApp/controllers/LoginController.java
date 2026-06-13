@@ -41,6 +41,11 @@ public class LoginController {
         return Keys.hmacShaKeyFor(secretKey.getBytes());
     }
 
+    @GetMapping("/")
+    public Map<String, String> healthCheck() {
+        return Map.of("status", "UP", "message", "PathFinder API is running");
+    }
+
     @PostMapping
     public ResponseEntity<?> login(@RequestBody LoginRequest request) {
         try {
