@@ -16,6 +16,8 @@ import com.nick.myApp.repos.*;
 
 import lombok.RequiredArgsConstructor;
 
+@CrossOrigin(origins = "https://pathfinderio.netlify.app")
+
 @RestController
 @RequestMapping("/cart")
 @RequiredArgsConstructor

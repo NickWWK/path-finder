@@ -17,7 +17,7 @@ import com.nick.myApp.dto.ForgetPasswordRequest;
 import com.nick.myApp.models.Users;
 import com.nick.myApp.repos.UsersRepo;
 
-@CrossOrigin(origins = "https://pathfinderio.netlify.app/forgetpassword")
+@CrossOrigin(origins = "https://pathfinderio.netlify.app")
 @RestController
 @RequestMapping("/forget_password")
 public class ForgetPasswordController {

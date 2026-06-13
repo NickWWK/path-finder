@@ -21,8 +21,8 @@ import org.springframework.transaction.annotation.Transactional;
 @RestController
 @RequestMapping("/wishlist")
 
-// 🔥🔥🔥 這行已修正（支援 ngrok + localhost）
-@CrossOrigin(originPatterns = "*")
+
+@CrossOrigin(origins = "https://pathfinderio.netlify.app")
 
 public class WishListController {
 

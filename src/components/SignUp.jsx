@@ -95,7 +95,7 @@ const SignUp = () => {
     if (Object.keys(validationErrors).length === 0) {
       setLoading(true);
       try {
-        const res = await axios.post("https://path-finder-w0sr.onrender.com", {
+        const res = await axios.post("https://path-finder-w0sr.onrender.com/register", {
           firstname,
           lastname,
           email,

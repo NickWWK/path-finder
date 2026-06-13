@@ -39,7 +39,7 @@ const ResetPassword = () => {
 
     if (Object.keys(validationErrors).length === 0) {
       try {
-        const res = await axios.post("https://path-finder-w0sr.onrender.com/reset_password", {
+        const res = await axios.post("https://path-finder-w0sr.onrender.com/resetpassword", {
           method,
           email,
           username,

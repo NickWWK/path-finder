@@ -14,7 +14,7 @@ import com.nick.myApp.repos.CoursesRepo;
 
 import lombok.RequiredArgsConstructor;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://pathfinderio.netlify.app")
 @RestController
 @RequestMapping("/courses")
 @RequiredArgsConstructor

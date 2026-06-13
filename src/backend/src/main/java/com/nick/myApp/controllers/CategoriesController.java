@@ -13,7 +13,7 @@ import com.nick.myApp.repos.CategoriesRepo;
 
 import lombok.RequiredArgsConstructor;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://pathfinderio.netlify.app")
 @RestController
 @RequestMapping("/categories")
 @RequiredArgsConstructor
