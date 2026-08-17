@@ -5,6 +5,11 @@ Path-Finder 是一個旨在幫助打工仔、學生及轉行人士探索自我�
 本專案採用以下核心技術構建：前端 (Frontend): React 後端 (Backend): Spring Boot 資料庫 (Database): MySQL
 
 # 畫面預覽
+<img width="2238" height="2668" alt="Home" src="https://github.com/user-attachments/assets/ab1cab41-5663-4283-b377-86a82ec58a23" />
+
+<img width="1536" height="2772" alt="Cart" src="https://github.com/user-attachments/assets/0dfc8e51-a7ed-475f-842b-78f607699b5e" />
+<img width="1536" height="8540" alt="Network" src="https://github.com/user-attachments/assets/e087ed9f-d957-454f-9746-3f2a5644364d" />
+
 
 
 # 專案架構
